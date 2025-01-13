@@ -7,7 +7,7 @@
 # Run Migration
 php artisan migrate
 
-# Run Seeder file For roles and permissions and same test user
+# Run Seeder file For roles and permissions and some test users
 
 php artisan db:seed --class="UserRolePermissionSeeder"
 
